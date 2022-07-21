@@ -1,0 +1,76 @@
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  color: black;
+  text-align: center;
+}
+
+body {
+  /* background-image: url(https://t4.ftcdn.net/jpg/04/01/56/59/360_F_401565931_BD99s5HnpN6FTDBzTX7MeZyRhip5thov.jpg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: xxx-large;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  transition: 0.9s;
+}
+
+h1:hover {
+  transition: 3s;
+  transform: scaleY(1.5);
+  transform: scaleX(1.5);
+  text-decoration: underline;
+  transform-origin: center;
+  background-color: rgba(255, 166, 0, 0.4);
+}
+
+#mysreach {
+  display: flex;
+  justify-content: center;
+  padding: 2vh;
+}
+
+h3 {
+  font-weight: bold;
+  font-family: Alef Hebrew, sans-serif;
+  font-size: x-large;
+  margin-block: auto;
+}
+
+#sreachInput {
+  background: transparent;
+  border: solid 5px;
+  padding: 2vh;
+  height: 2vh;
+}
+
+#DivcontentResize {
+  transition: 1s;
+  border-radius: 24px;
+}
+
+/* .content:hover p {
+  transform: scaleY(0.9);
+} */
+
+.content:hover {
+  transform: scaleY(4);
+  transform-origin: center;
+  /* transform-origin: bottom; */
+}
